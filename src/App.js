@@ -20,33 +20,33 @@ const Tvapi =Baseurl+"/discover/tv?sort_by=popularity.desc&"+Apikey;
 function App() {
   const [movies, setmovies] = useState([]);
   useEffect(() => { fetch(Movieapi).then((res)=>res.json()).then((data)=>{console.log(data);
-  setmovies(data.results);});
+  setmovies(data.results);}).catch(err=>{console.log(err)});
   }, []);
   const [tv, settv] = useState([]);
   useEffect(() => { fetch(Tvapi).then((res)=>res.json()).then((data)=>{console.log(data);
-  settv(data.results);});
+  settv(data.results);}).catch(err=>{console.log(err)});
   }, []);
   const [moviesR, setmoviesR] = useState([]);
   useEffect(() => { fetch(MovieapiR).then((res)=>res.json()).then((data)=>{console.log(data);
-  setmoviesR(data.results);});
+  setmoviesR(data.results);}).catch(err=>{console.log(err)});
   }, []);
   const [moviesT, setmoviesT] = useState([]);
   useEffect(() => { fetch(MovieapiT).then((res)=>res.json()).then((data)=>{console.log(data);
-  setmoviesT(data.results);});
+  setmoviesT(data.results);}).catch(err=>{console.log(err)});
   }, []);
 const[searchterm,setsearchterm]=useState('');
   const handleonSubmit=(e)=>{
     e.preventDefault();
     if (searchterm){
     fetch(Searchapi+searchterm).then((res)=>res.json()).then((data)=>{console.log(data);
-      setmovies(data.results);});
+      setmovies(data.results);}).catch(err=>{console.log(err)});
       setsearchterm("");}
   };
   const handleonSubmitT=(e)=>{
     e.preventDefault();
     if (searchterm){
     fetch(SearchapiT+searchterm).then((res)=>res.json()).then((data)=>{console.log(data);
-      settv(data.results);});
+      settv(data.results);}).catch(err=>{console.log(err)});
       setsearchterm("");}
   };
 
