@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MovieViewer/static/css/main.cfa9db2f.chunk.css",
+    "main.js": "/MovieViewer/static/js/main.60d8c4d1.chunk.js",
+    "main.js.map": "/MovieViewer/static/js/main.60d8c4d1.chunk.js.map",
+    "runtime-main.js": "/MovieViewer/static/js/runtime-main.31407197.js",
+    "runtime-main.js.map": "/MovieViewer/static/js/runtime-main.31407197.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/MovieViewer/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.e061c63f.chunk.js": "/MovieViewer/static/js/2.e061c63f.chunk.js",
+    "static/js/2.e061c63f.chunk.js.map": "/MovieViewer/static/js/2.e061c63f.chunk.js.map",
+    "static/js/3.43cd9235.chunk.js": "/MovieViewer/static/js/3.43cd9235.chunk.js",
+    "static/js/3.43cd9235.chunk.js.map": "/MovieViewer/static/js/3.43cd9235.chunk.js.map",
+    "index.html": "/MovieViewer/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/MovieViewer/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.cfa9db2f.chunk.css.map": "/MovieViewer/static/css/main.cfa9db2f.chunk.css.map",
+    "static/js/2.e061c63f.chunk.js.LICENSE.txt": "/MovieViewer/static/js/2.e061c63f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31407197.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.e061c63f.chunk.js",
+    "static/css/main.cfa9db2f.chunk.css",
+    "static/js/main.60d8c4d1.chunk.js"
+  ]
+}
